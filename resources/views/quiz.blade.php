@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="{{ asset('public/bootstrap/css/bootstrap.min.css') }}">
     <link rel="stylesheet" href="{{ asset('css/quiz.css') }}" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kameron" />
-    <script src="{{ asset('js/script.js') }}"></script>
+    <script src="js/script.js"></script>
     <title>Quiz</title>
 
     <style>
