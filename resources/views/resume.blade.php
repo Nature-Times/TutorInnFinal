@@ -6,24 +6,42 @@
     <title>Tutor Profile</title>
     <link rel="stylesheet" href="css/resume.css">
     <style>
+        html, body{
+            font-family: 'Kameron', serif;
+            background-color: #FFFBE9 !important;
+            margin: 0;
+            padding: 0;
+            /* color: #5C3A2D; */
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center center;
+        }
+        
         .tutorBox {
             align-items: center;
             display: block;
             margin-bottom: 4%;
-            padding-bottom: 200px;
         }
         
         .button{
-            padding-left: 200px;
-            padding-top: 200px;
-        }
-        
-        .cv {
-            padding-top: 5%;
+            height: 4vw;
+            width: 4vw;
+            margin: 7vw 5vw 1vw 8vw;
+            background-color: #E5D0BC;
+            transition: 0.3s;
+            padding: 1%;
+            cursor: pointer;
+            border-radius: 20%;
+            width: 4%;
         }
         .userProfile {
             border-radius: 50px;
         }
+        
+        .cvBox{
+            width: 50%;
+        }
+        
         a {
             text-decoration: none;
             color: black;
